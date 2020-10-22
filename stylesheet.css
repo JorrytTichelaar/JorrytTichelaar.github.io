@@ -2,11 +2,12 @@
 Good examples: 
 https://vuorre.netlify.app/
 https://lynnle.com/
+https://fonts.google.com/specimen/Quicksand
 */
 
 body,html { 
 	width: 100%; 
-	background-color: #F3E8EA;
+	background-color: #D37E8E;
 }
 
 * { 
@@ -26,12 +27,26 @@ body,html {
 }
 
 h1 {
-  color: black;
-  font-size: 50px; 
+  	color: black;
+  	font-size: 35px;
+	font-family: "Spectral SC"; 
+	line-height: 1.5; 
 }
 
 h2 {
 	font-size: 30px;
+	font-family: Raleway;
+	line-height: 1.4; 
+}
+
+h3 {
+	font-size: 15px;
+	font-family: Raleway;
+	line-height: 1.3; 
+}
+
+p {
+	font-family: "Quicksand" 
 }
 
 /*Menu Start *******************************************/
@@ -41,7 +56,6 @@ h2 {
 	border-bottom: solid 1px black;
 	position: fixed;
 	background-color: #F3E8EA;
-	margin-bottom: 40px;
 }
 
 .menubutton {
@@ -54,6 +68,7 @@ h2 {
 	font-size: 20px;
 	color: #262626;
 	font-weight: bold;
+	font-family: "Spectral SC" 
 }
 
 
@@ -85,13 +100,12 @@ h2 {
 #introSummary img {
 	height: 300px;   
 	margin-top: 10%;
-	margin-bottom: 5%;
 	margin-left: 50%;
 	transform: translate(-50%, 0);
 	border-radius: 0%;
 }  
 
-#introSummary h1, h2, h3, h4 {
+#introSummary h1, #introSummary h2, #introSummary h3 {
 	text-align: center;
 }
 
