@@ -5,22 +5,24 @@ https://lynnle.com/
 https://fonts.google.com/specimen/Quicksand
 */
 
+/* Naar binnen scrollen bij dinges */ 
+
 body,html { 
 	width: 100%; 
-	background-color: #D37E8E;
+	background-color: #F3E8EA; /*#D37E8E;*/
 }
 
 * { 
-	color:#fff; 
+	color:#000; 
 	text-decoration: none;
 }
 
 #wrapper { 
-	width: 100%;  
+	width: 100%;   
 }
 
 .mainBlock {
-	height: 600px; 
+	height: 550px; 
 	width: 80%;
 	box-sizing: border-box;
 	padding-left: 20%
@@ -29,14 +31,15 @@ body,html {
 h1 {
   	color: black;
   	font-size: 35px;
-	font-family: "Spectral SC"; 
+	font-family: "Roboto"; 
+	font-weight: 900;
 	line-height: 1.5; 
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 22px;
 	font-family: Raleway;
-	line-height: 1.4; 
+	line-height: 1.2;
 }
 
 h3 {
@@ -46,7 +49,8 @@ h3 {
 }
 
 p {
-	font-family: "Quicksand" 
+	font-family: "Quicksand";
+	font-size: 19px; 
 }
 
 /*Menu Start *******************************************/
@@ -56,6 +60,7 @@ p {
 	border-bottom: solid 1px black;
 	position: fixed;
 	background-color: #F3E8EA;
+	z-index: 1;
 }
 
 .menubutton {
@@ -83,7 +88,7 @@ p {
 /*INTRO BLOCK *******************************/
 #intro {
 	padding-top: 40px;
-	height: 640px;
+	/*height: 640px;*/
 }
 
 #introText {
@@ -99,7 +104,7 @@ p {
 
 #introSummary img {
 	height: 300px;   
-	margin-top: 10%;
+	margin-top: 45px;
 	margin-left: 50%;
 	transform: translate(-50%, 0);
 	border-radius: 0%;
@@ -149,7 +154,7 @@ p {
 
 /*RESUME BLOCK */
 #resumeblock {
-	background-color: #74D1E0;	
+	background-color: #F3E8EA;	
 }
 
 #WorkingExperience {
